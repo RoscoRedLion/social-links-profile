@@ -33,6 +33,7 @@ body {
 }
 img {
     border-radius: 100%;
+    width: 100px;
 }
 .links {
     width: 100%;
@@ -54,3 +55,4 @@ img {
 .head span {
     color: hsl(75, 94%, 57%);
 }
+
