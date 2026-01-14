@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'MyBrandFont';             /* The name you'll use in your code */
+    src: url('Inter-VariableFont_slnt,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;                     /* Shows fallback font until custom loads */
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'MyBrandFont', sans-serif;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 375px;
+    max-height: fit-content;
+    padding: 30px;
+    border-radius: 12px;
+}
+img {
+    border-radius: 100%;
+}
+.links {
+    width: 100%;
+}
+.links p:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.links p {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 14px;
+    margin: 12px 0px;
+    width: 100%;
+}
+.head span {
+    color: hsl(75, 94%, 57%);
+}
