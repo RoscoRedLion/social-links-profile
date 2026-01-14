@@ -27,9 +27,8 @@ body {
     font-family: 'MyBrandFont', sans-serif;
     color: hsl(0, 0%, 100%);
     width: 100%;
-    max-width: 375px;
-    max-height: fit-content;
-    padding: 30px;
+    max-width: 320px;
+    padding: 24px;
     border-radius: 12px;
 }
 img {
@@ -48,8 +47,8 @@ img {
     flex-direction: column;
     background-color:hsl(0, 0%, 20%);
     border-radius: 10px;
-    padding: 14px;
-    margin: 12px 0px;
+    padding: 12px;
+    margin: 8px 0px;
     width: 100%;
 }
 .head span {
