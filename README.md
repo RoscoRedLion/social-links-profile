@@ -9,7 +9,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
      "screenshot-social-profile.png"
 - [Links]
      GitHub repository: https://github.com/RoscoRedLion/social-links-profile
-     Live Website: 
+     Live Website: https://roscoredlion.github.io/social-links-profile/
 - [My process]
    This page was created using VS Code (html, css)
    The buttons were made interactive using 'transform: scale(1.1)' and 'cursor: pointer'
